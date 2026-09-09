@@ -42,6 +42,7 @@ Classification:
 
 
 ```
+```
 #  Architecture
 
 <img width="1408" height="768" alt="01-architecture" src="https://github.com/user-attachments/assets/97b1932f-f666-4efa-a8e9-59935826b386" />
@@ -81,7 +82,7 @@ securefileguard-216453078762/
 ├── clean/
 └── quarantine/
 ```
-
+```
 <img width="1900" height="611" alt="02-s3-bucket" src="https://github.com/user-attachments/assets/e93ffa34-915c-4ae9-9a17-c7190108a690" />
 <img width="1892" height="335" alt="03-s3-encryption" src="https://github.com/user-attachments/assets/a05d7197-0bcf-4ca9-a846-10999090edba" />
 <img width="1881" height="713" alt="03-s3-public-access" src="https://github.com/user-attachments/assets/703294b1-c669-4ec7-b9cf-fd7ecfa880aa" />
