@@ -77,10 +77,6 @@ The S3 bucket is configured with:
 * Separate storage prefixes
 
 
-securefileguard-216453078762/
-├── uploads/
-├── clean/
-└── quarantine/
 ```
 ```
 <img width="1900" height="611" alt="02-s3-bucket" src="https://github.com/user-attachments/assets/e93ffa34-915c-4ae9-9a17-c7190108a690" />
