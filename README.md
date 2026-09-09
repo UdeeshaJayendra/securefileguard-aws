@@ -10,10 +10,6 @@ The project demonstrates practical **cloud security, serverless architecture, th
 
 The system provides an automated pipeline for analyzing uploaded files
 
-```
-
-```
-
 ## 🔐 Security Analysis
 
 SecureFileGuard uses multiple indicators to calculate a threat score.
