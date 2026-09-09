@@ -8,46 +8,8 @@ The project demonstrates practical **cloud security, serverless architecture, th
 
 ##  Project Overview
 
-The system provides an automated pipeline for analyzing uploaded files:
+The system provides an automated pipeline for analyzing uploaded files
 
-```text
-User / API Client
-       │
-       ▼
- API Gateway
-       │
-       ▼
- Upload Lambda
-       │
-       ▼
- S3 ── uploads/
-       │
-       ▼
- S3 Event Notification
-       │
-       ▼
- SQS Security Queue
-       │
-       ▼
- Scanner Lambda
-       │
-       ├───────────────┐
-       ▼               ▼
-    CLEAN           THREAT
-       │               │
-       ▼               ▼
-   S3 clean/      S3 quarantine/
-       │               │
-       └───────┬───────┘
-               ▼
-          DynamoDB
-        Scan Results
-               │
-               ▼
-          SNS Alerts
-               │
-               ▼
-             Email
 ```
 
 ---
