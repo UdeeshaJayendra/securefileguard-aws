@@ -12,7 +12,7 @@ The system provides an automated pipeline for analyzing uploaded files
 
 ```
 
----
+```
 
 ## 🔐 Security Analysis
 
@@ -44,8 +44,8 @@ Classification:
 | 40–69 | SUSPICIOUS  |
 |   70+ | QUARANTINED |
 
----
 
+```
 #  Architecture
 
 <img width="1408" height="768" alt="01-architecture" src="https://github.com/user-attachments/assets/97b1932f-f666-4efa-a8e9-59935826b386" />
@@ -79,7 +79,7 @@ The S3 bucket is configured with:
 * Lifecycle management
 * Separate storage prefixes
 
-```text
+
 securefileguard-216453078762/
 ├── uploads/
 ├── clean/
