@@ -131,13 +131,6 @@ POST /upload
 
 Example request:
 
-```json
-{
-  "file_name": "security-report.txt",
-  "content": "Security validation test"
-}
-```
-
 The API returns a queued response after successfully storing the file.
 
 <img width="1901" height="525" alt="08-api-gateway" src="https://github.com/user-attachments/assets/e50b6d55-22b5-4822-9f39-a5ac5ed1a0d8" />
